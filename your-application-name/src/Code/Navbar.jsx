@@ -3,6 +3,7 @@ import './Nav.css';
 import { AiFillApple,AiOutlineSearch,AiOutlineRight} from "react-icons/ai";
 import { BsBag} from "react-icons/bs";
 import Home from './Home';
+
 const Navbar = () => {
   return (
     <div>

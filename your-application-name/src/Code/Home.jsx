@@ -1,8 +1,26 @@
+import './Home.css';
 import React from 'react'
-import { AiFillApple, AiOutlineRight, AiFillPlayCircle } from "react-icons/ai";
+import { AiFillApple, AiOutlineRight, AiFillPlayCircle, AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Footer from './Footer';
 
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+
+import img1 from "./slider/img1.png";
+import img2 from "./slider/img2.png";
+import img3 from "./slider/img3.png";
+import img4 from "./slider/img4.png";
+import img5 from "./slider/img5.png";
+import img6 from "./slider/img6.png";
+import img7 from "./slider/img7.png";
 
 const Home = () => {
+
   return (
     <div>
       <div className='mac'>
@@ -134,6 +152,58 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* slidersection */}
+      <div>
+        <Swiper
+          effect={'coverflow'}
+          grabCursor={true}
+          centeredSlides={true}
+          loop={true}
+          slidesPerView={'auto'}
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2.5,
+          }}
+          pagination={{ el: '.swiper-pagination', clickable: true }}
+          navigation={{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            clickable: true,
+          }}
+          modules={[EffectCoverflow, Pagination, Navigation]}
+          className="swiper_container"
+        >
+          <SwiperSlide>
+            <img src={img1} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img2} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img3} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img4} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img5} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img6} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={img7} alt="slide_image" />
+          </SwiperSlide>
+
+          <div className="slider-controler">
+            
+            <div className="swiper-pagination"></div>
+          </div>
+        </Swiper>
+      </div>
+      <Footer/>
     </div>
   )
 }
