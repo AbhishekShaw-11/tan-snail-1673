@@ -1,0 +1,442 @@
+{
+    "iphone_models": [
+        {
+            "name": "iPhone 14",
+            "image_url": "https://imgix.bustle.com/uploads/image/2022/9/7/ac744201-c702-40fd-802a-6f1e0942f5ff-apple-iphone-14-iphone-14-plus-2up-purple-220907_inlinejpglarge_2x.jpg?w=414&h=579&fit=crop&crop=faces&auto=format%2Ccompress",
+            "price": "$1099",
+            "details": "The iPhone 14 comes with a new 120Hz ProMotion display and improved cameras.",
+            "color": "Silver"
+        },
+        {
+            "name": "iPhone 14 Pro",
+            "image_url": "https://jinglestore.ru/d/iphone_14_pro_black.jpg",
+            "price": "$1299",
+            "details": "The iPhone 14 Pro features a ProMotion XDR display and LiDAR Scanner.",
+            "color": "Graphite"
+        },
+        {
+            "name": "iPhone 13",
+            "image_url": "https://images.ep.nl/square900nogrow/148035/apple-iphone-13-128gb-blauw.jpg",
+            "price": "$999",
+            "details": "The iPhone 13 features a Super Retina XDR display and A15 Bionic chip.",
+            "color": "Midnight Blue"
+        },
+        {
+            "name": "iPhone 13 Mini",
+            "image_url": "https://th.bing.com/th/id/OIP.C5NYMYmlrmDoSX7hDT3oNAHaJX?pid=ImgDet&rs=1",
+            "price": "$899",
+            "details": "The iPhone 13 Mini packs powerful features in a compact design.",
+            "color": "Pink"
+        },
+        {
+            "name": "iPhone 13 Pro Max",
+            "image_url": "https://www.berylmedia.nl/wp-content/uploads/2021/11/PI_637673862632222096_zoom-600x600.jpg",
+            "price": "$1299",
+            "details": "The iPhone 13 Pro Max offers the largest display and enhanced battery life.",
+            "color": "Gold"
+        },
+        {
+            "name": "iPhone 13 Pro",
+            "image_url": "https://cdn11.bigcommerce.com/s-k28jrdpwdo/images/stencil/1920w/products/6490/101941/6443334cv11d__21046.1637842178.1280.1280__44871.1637842980.1280.1280__49660.1642668566.jpg?c=1",
+            "price": "$1199",
+            "details": "The iPhone 13 Pro comes with ProMotion technology and a triple-camera system.",
+            "color": "Graphite"
+        },
+        {
+            "name": "iPhone 12",
+            "image_url": "https://www.resetdigitale.it/118405-thickbox_default/smartphone-apple-iphone-12-128gb-nero.jpg",
+            "price": "$799",
+            "details": "The iPhone 12 has a Ceramic Shield front cover and 5G capability.",
+            "color": "Black"
+        },
+        {
+            "name": "iPhone 12 Mini",
+            "image_url": "https://mediacenterpk.com/image/catalog/Apple/03-10-19/Apple/iphone-12/64-GB/White-Size.png",
+            "price": "$699",
+            "details": "The iPhone 12 Mini is a compact version with the same powerful features.",
+            "color": "White"
+        },
+        {
+            "name": "iPhone SE",
+            "image_url": "https://priceintanzania.com/wp-content/uploads/2020/04/iPhone-SE-2020.jpg",
+            "price": "$399",
+            "details": "The iPhone SE combines the latest technology with the familiar design.",
+            "color": "Red"
+        },
+        {
+            "name": "iPhone 11",
+            "image_url": "https://assets.onbuy.com/i24/product/3a4e8b90f5694bb5be90b78149a295fa-l28998085/unlocked-64gb-apple-iphone-11-green.jpg",
+            "price": "$699",
+            "details": "The iPhone 11 has a dual-camera system and A13 Bionic chip.",
+            "color": "Green"
+        },
+        {
+            "name": "iPhone 11 Pro",
+            "image_url": "https://i5.walmartimages.com/asr/429b3f13-436c-487b-99ba-fe976148950e_1.1c92365c7df562f03c39b45dbf5b3af0.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
+            "price": "$999",
+            "details": "The iPhone 11 Pro features a triple-camera system and A13 Bionic chip.",
+            "color": "Midnight Green"
+        },
+        {
+            "name": "iPhone 11 Pro Max",
+            "image_url": "https://th.bing.com/th/id/OIP.b-ImjXFxwxshIuOXtvS-5wHaHa?pid=ImgDet&rs=1",
+            "price": "$1099",
+            "details": "The iPhone 11 Pro Max has a larger display and improved battery life.",
+            "color": "Space Gray"
+        },
+        {
+            "name": "iPhone XR",
+            "image_url": "https://d31wxntiwn0x96.cloudfront.net/bghptk/productimages/7462_0.jpeg?etag=%2289a29d359406241efa7ad985ab31cef6%22",
+            "price": "$599",
+            "details": "The iPhone XR features Liquid Retina display and Face ID.",
+            "color": "Blue"
+        },
+        {
+            "name": "iPhone X",
+            "image_url": "https://images.bonanzastatic.com/afu/images/5c64/18d1/22c4_7490851268/screen_shot_2018-01-07_at_3.41.15_pm.png",
+            "price": "$599",
+            "details": "The iPhone X introduced a new design with Face ID and OLED display.",
+            "color": "Silver"
+        },
+        {
+            "name": "iPhone XS",
+            "image_url": "https://th.bing.com/th/id/OIP.s05TDdaGgQ0Jwrt86XXvoQHaLu?pid=ImgDet&w=560&h=887&rs=1",
+            "price": "$899",
+            "details": "The iPhone XS features an OLED Super Retina display and Face ID.",
+            "color": "Silver"
+        },
+        {
+            "name": "iPhone XS Max",
+            "image_url": "https://th.bing.com/th/id/OIP.WwETUNuVmYF92e6Diuo6iwHaHa?pid=ImgDet&rs=1",
+            "price": "$999",
+            "details": "The iPhone XS Max has a massive display and improved cameras.",
+            "color": "Gold"
+        },
+        {
+            "name": "iPhone 8",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71mJ42vEDBL._SL1500_.jpg",
+            "price": "$449",
+            "details": "The iPhone 8 has a 4.7-inch Retina display and Touch ID.",
+            "color": "Gold"
+        },
+        {
+            "name": "iPhone 7",
+            "image_url": "https://i5.walmartimages.com/asr/790c277c-2cb6-4b23-b2db-52b3778c07eb_1.ef2fc75ea214de82b1f540270a3d7e92.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
+            "price": "$349",
+            "details": "The iPhone 7 comes with a 12MP camera and A10 Fusion chip.",
+            "color": "Rose Gold"
+        },
+        {
+            "name": "iPhone SE (2nd Gen)",
+            "image_url": "https://cdn.shopify.com/s/files/1/0024/9803/5810/products/580975-Product-1-I-637824075204850160_1024x1024.jpg",
+            "price": "$399",
+            "details": "The iPhone SE (2nd Gen) features the A13 Bionic chip and Portrait mode.",
+            "color": "Product Red"
+        },
+        {
+            "name": "iPhone 6s",
+            "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4443/4443518_rd.jpg",
+            "price": "$299",
+            "details": "The iPhone 6s has a 4.7-inch Retina HD display and 3D Touch.",
+            "color": "Space Gray"
+        },
+        {
+            "name": "iPhone 6 Plus",
+            "image_url": "https://th.bing.com/th/id/OIP.oqdkMSAHrqDmPesAqP-InwHaHa?pid=ImgDet&rs=1",
+            "price": "$349",
+            "details": "The iPhone 6 Plus features a larger 5.5-inch display and optical image stabilization.",
+            "color": "Silver"
+        },
+        {
+            "name": "iPhone 5s",
+            "image_url": "https://i.pinimg.com/originals/ef/0c/45/ef0c45d137473f6d7020b3c9bd307576.jpg",
+            "price": "$199",
+            "details": "The iPhone 5s introduced Touch ID and A7 chip.",
+            "color": "Space Gray"
+        },
+        {
+            "name": "iPhone 5c",
+            "image_url": "https://www.igyaan.in/wp-content/uploads/2016/02/iPhone-5se-hot-pink-1100x1107.jpg",
+            "price": "$199",
+            "details": "The iPhone 5c features a colorful polycarbonate design.",
+            "color": "Pink"
+        },
+        {
+            "name": "iPhone 5",
+            "image_url": "https://wholesale.alegre.net.au/assets/full/IPH564BLKIMP.jpg?20171030161752",
+            "price": "$179",
+            "details": "The iPhone 5 has a 4-inch Retina display and A6 chip.",
+            "color": "Black"
+        },
+        {
+            "name": "iPhone 4s",
+            "image_url": "https://www.proshop.dk/Images/915x900/2295074_72893048818f.jpg",
+            "price": "$149",
+            "details": "The iPhone 4s introduced Siri and a dual-core A5 chip.",
+            "color": "White"
+        },
+        {
+            "name": "iPhone 4",
+            "image_url": "https://wegottech.com/wp-content/uploads/2019/03/Iphone-4-Black.jpg",
+            "price": "$99",
+            "details": "The iPhone 4 brought a Retina display and FaceTime camera.",
+            "color": "Black"
+        },
+        {
+            "name": "iPhone 3GS",
+            "image_url": "https://th.bing.com/th/id/R.059e2d993a481fff6d2e0fd9061996b0?rik=c5SYuPM%2fYW9eug&riu=http%3a%2f%2ffarm5.staticflickr.com%2f4071%2f4410718243_3a15a12841.jpg&ehk=cydx%2fnfx1K250xUxKeTGdljA3ikEflDyeDni1Yn%2bmXs%3d&risl=&pid=ImgRaw&r=0",
+            "price": "$99",
+            "details": "The iPhone 3GS improved performance and added video recording.",
+            "color": "Black"
+        },
+        {
+            "name": "iPhone 3G",
+            "image_url": "https://www.lifewire.com/thmb/8qS8pae6uS0YV4gwIzpRg-ncJh4=/1250x1409/filters:fill(auto,1)/iphone-3g-5a6c87d7875db90037d168ad.jpg",
+            "price": "$79",
+            "details": "The iPhone 3G introduced 3G connectivity and the App Store.",
+            "color": "Black"
+        },
+        {
+            "name": "iPhone",
+            "image_url": "https://i.dailymail.co.uk/i/pix/2017/01/09/09/3BFB452400000578-4101166-image-a-1_1483953915336.jpg",
+            "price": "$599",
+            "details": "The original iPhone revolutionized the smartphone industry.",
+            "color": "White"
+        }
+       
+    ],
+    "apple_airpods": [
+        {
+            "name": "AirPods (2nd generation)",
+            "price": 159.00,
+            "details": "Automatically on, automatically connected. Easy setup for all your Apple devices. Quick access to Siri with a double-tap. Charges quickly in the case.",
+            "color": "White",
+            "img":"https://i5.walmartimages.com/asr/12db7df1-7452-4b8a-b6f4-2edeeb0b00e2_1.59c3e6250aa2282a1482dc02c2c4fa88.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff"
+        },
+        {
+            "name": "AirPods Pro",
+            "price": 249.00,
+            "details": "Active Noise Cancellation for immersive sound. Transparency mode for hearing and connecting with the world around you. Sweat and water-resistant.",
+            "color": "White",
+            "img":"https://th.bing.com/th/id/OIP.oZhAgHANB68gzjdV0-MYAgHaHa?pid=ImgDet&rs=1"
+        },
+        {
+            "name": "AirPods Max",
+            "price": 549.00,
+            "details": "High-fidelity audio. Adaptive EQ. Active Noise Cancellation. Spatial audio for theater-like sound. 20-hour battery life.",
+            "color": "Space Gray",
+            "img":"https://www.bhphotovideo.com/images/images2500x2500/apple_mgyj3am_a_airpods_max_silver_1610234.jpg"
+        },
+        {
+            "name": "AirPods (3rd generation)",
+            "price": 179.00,
+            "details": "Sleek design. Spatial audio support. Adaptive EQ. Sweat and water-resistant. Up to 6 hours of listening time on a single charge.",
+            "color": "White",
+            "img":"https://th.bing.com/th/id/OIP.aLvJQyiaAvcvP1Emx46nUwAAAA?pid=ImgDet&rs=1"
+        },
+        {
+            "name": "AirPods Pro Lite",
+            "price": 199.00,
+            "details": "Essential features for an affordable price. Active Noise Cancellation. Quick access to Siri. Sweat-resistant design.",
+            "color": "Black",
+            "img":"https://th.bing.com/th/id/OIP.kNQ8pLjDK-nSrTszCE-laQAAAA?pid=ImgDet&rs=1"
+        },
+        {
+            "name": "AirPods Sport",
+            "price": 179.00,
+            "details": "Designed for active lifestyles. Sweat and water-resistant. Secure-fit ear hooks. Enhanced bass for workouts.",
+            "color": "Blue",
+            "img":"https://th.bing.com/th/id/OIP.h6CIaWKBHGVfD6IAhDryjQHaHa?pid=ImgDet&rs=1"
+        },
+        {
+            "name": "AirPods Studio",
+            "price": 499.00,
+            "details": "Over-ear design. Active Noise Cancellation. Spatial audio support. 20-hour battery life. Premium sound quality.",
+            "color": "Silver",
+            "img":"https://akket.com/wp-content/uploads/2020/09/AirPods-Studio-Apple-Besprovodnye-naushniki-6.jpg"
+        }
+        
+    ],
+    "macbook_models": [
+        {
+            "name": "MacBook Air 13-inch",
+            "real_price": 999,
+            "details": "13-inch Retina display, Apple M1 chip, 8GB RAM, 256GB SSD",
+            "color": "Silver",
+            "img":"https://media.gettyimages.com/id/1149447477/photo/a-2018-13-inch-apple-macbook-air-laptop-computer-taken-on-november-26-2018.jpg?s=612x612&w=0&k=20&c=iRzOk7n-nzp62Wn3SvldgbKjCmelc2RB7_0PRT3tw0E="
+        },
+        
+       
+        {
+            "name": "MacBook Pro 15-inch",
+            "real_price": 2199,
+            "details": "15-inch Retina display, Intel Core i7, 16GB RAM, 512GB SSD",
+            "color": "Silver",
+            "img":"https://media.gettyimages.com/id/1232197437/photo/a-2020-apple-macbook-air-laptop-computer-taken-on-april-14-2020.jpg?s=612x612&w=0&k=20&c=YYGQWPsXiaMgiGxhLgS_tl7gmhuaI84HfOPtPYIYUiM="
+        },
+        {
+            "name": "MacBook Pro 14-inch",
+            "real_price": 1699,
+            "details": "14-inch Mini-LED Retina display, Apple M1X chip, 16GB RAM, 512GB SSD",
+            "color": "Silver",
+            "img":"https://media.gettyimages.com/id/1232197437/photo/a-2020-apple-macbook-air-laptop-computer-taken-on-april-14-2020.jpg?s=612x612&w=0&k=20&c=YYGQWPsXiaMgiGxhLgS_tl7gmhuaI84HfOPtPYIYUiM="
+
+        },
+        {
+            "name": "MacBook Pro 14-inch",
+            "real_price": 1899,
+            "details": "14-inch Mini-LED Retina display, Apple M1X chip, 16GB RAM, 1TB SSD",
+            "color": "Space Gray",
+            "img":"https://media.gettyimages.com/id/1232197437/photo/a-2020-apple-macbook-air-laptop-computer-taken-on-april-14-2020.jpg?s=612x612&w=0&k=20&c=YYGQWPsXiaMgiGxhLgS_tl7gmhuaI84HfOPtPYIYUiM="
+
+        },
+        {
+            "name": "MacBook Pro 16-inch",
+            "real_price": 2399,
+            "details": "16-inch Retina display, Intel Core i7, 16GB RAM, 512GB SSD",
+            "color": "Silver",
+            "img":"https://media.gettyimages.com/id/1232197437/photo/a-2020-apple-macbook-air-laptop-computer-taken-on-april-14-2020.jpg?s=612x612&w=0&k=20&c=YYGQWPsXiaMgiGxhLgS_tl7gmhuaI84HfOPtPYIYUiM="
+
+        },
+        
+        {
+            "name": "MacBook 12-inch",
+            "real_price": 1299,
+            "details": "12-inch Retina display, Intel Core i5, 8GB RAM, 256GB SSD",
+            "color": "Silver",
+            "img":"https://media.gettyimages.com/id/1232197437/photo/a-2020-apple-macbook-air-laptop-computer-taken-on-april-14-2020.jpg?s=612x612&w=0&k=20&c=YYGQWPsXiaMgiGxhLgS_tl7gmhuaI84HfOPtPYIYUiM="
+
+        },
+        
+        {
+            "name": "MacBook Air 11-inch",
+            "real_price": 899,
+            "details": "11-inch display, Intel Core i5, 4GB RAM, 128GB SSD",
+            "color": "Silver",
+            "img":"https://media.gettyimages.com/id/1232197437/photo/a-2020-apple-macbook-air-laptop-computer-taken-on-april-14-2020.jpg?s=612x612&w=0&k=20&c=YYGQWPsXiaMgiGxhLgS_tl7gmhuaI84HfOPtPYIYUiM="
+
+        }
+       
+       
+       
+    ],
+    "ipads": [
+        {
+            "name": "iPad Air",
+            "price": "$599",
+            "details": "10.9-inch, A14 Bionic chip, 64GB storage",
+            "color": "Silver",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        },
+        {
+            "name": "iPad Pro 11",
+            "price": "$799",
+            "details": "11-inch, M1 chip, 128GB storage",
+            "color": "Space Gray",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        },
+        {
+            "name": "iPad mini",
+            "price": "$499",
+            "details": "7.9-inch, A12 Bionic chip, 64GB storage",
+            "color": "Sliver",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        },
+        {
+            "name": "iPad",
+            "price": "$329",
+            "details": "10.2-inch, A13 Bionic chip, 32GB storage",
+            "color": "Sliver",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        },
+        {
+            "name": "iPad Pro 12.9",
+            "price": "$1099",
+            "details": "12.9-inch, M1 chip, 256GB storage",
+            "color": "Space Gray",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        },
+        {
+            "name": "iPad Air",
+            "price": "$599",
+            "details": "10.9-inch, A14 Bionic chip, 64GB storage",
+            "color": "Sliver",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        },
+        {
+            "name": "iPad Pro 11",
+            "price": "$799",
+            "details": "11-inch, M1 chip, 128GB storage",
+            "color": "Silver",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        },
+        {
+            "name": "iPad mini",
+            "price": "$499",
+            "details": "7.9-inch, A12 Bionic chip, 64GB storage",
+            "color": "Space Gray",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        },
+        {
+            "name": "iPad",
+            "price": "$329",
+            "details": "10.2-inch, A13 Bionic chip, 32GB storage",
+            "color": "Silver",
+            "img":"https://i2.wp.com/mynexttablet.com/wp-content/uploads/2018/12/ipad-pro-11-review.jpg?fit=1920%2C1200&ssl=1"
+        }
+        
+    ],
+    "apple_watch_models": [
+        {
+            "name": "Apple Watch Series 6",
+            "price": 399,
+            "details": "GPS, Always-On Retina display, ECG app",
+            "color": "Space Gray",
+            "img":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPL73_VW_PF+watch-40-alum-starlight-nc-se_VW_PF_WF_CO?"
+        },
+        {
+            "name": "Apple Watch SE",
+            "price": 279,
+            "details": "GPS, Retina display, S5 chip",
+            "color": "Silver",
+            "img":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPL73_VW_PF+watch-40-alum-starlight-nc-se_VW_PF_WF_CO?"
+        },
+        {
+            "name": "Apple Watch Series 5",
+            "price": 299,
+            "details": "GPS, Always-On Retina display, ECG app",
+            "color": "Gold",
+            "img":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPL73_VW_PF+watch-40-alum-starlight-nc-se_VW_PF_WF_CO?"
+        },
+        {
+            "name": "Apple Watch Series 4",
+            "price": 249,
+            "details": "GPS, Retina display, S4 chip",
+            "color": "Space Black",
+            "img":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPL73_VW_PF+watch-40-alum-starlight-nc-se_VW_PF_WF_CO?"
+        },
+        {
+            "name": "Apple Watch Series 3",
+            "price": 199,
+            "details": "GPS, Retina display, S3 chip",
+            "color": "White",
+            "img":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPL73_VW_PF+watch-40-alum-starlight-nc-se_VW_PF_WF_CO?"
+        },
+        {
+            "name": "Apple Watch SE Nike+",
+            "price": 319,
+            "details": "GPS, Retina display, S5 chip, Nike Sport Band",
+            "color": "Black",
+            "img":"https://th.bing.com/th/id/OIP.e6ElvPBFr7M_PS0rmoVaeAHaHa?pid=ImgDet&rs=1"
+        },
+        {
+            "name": "Apple Watch Series 6 Nike Edition",
+            "price": 429,
+            "details": "GPS, Always-On Retina display, ECG app, Nike Sport Band",
+            "color": "Midnight Blue",
+            "img":"https://th.bing.com/th/id/OIP.e6ElvPBFr7M_PS0rmoVaeAHaHa?pid=ImgDet&rs=1"
+        }
+        
+    ]
+    
+}

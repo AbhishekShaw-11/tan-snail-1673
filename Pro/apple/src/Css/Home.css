@@ -1,0 +1,48 @@
+.ip14pro{
+    background-color: black;
+    color: white;
+  }
+  .padwatch{
+    background-color: black;
+    color: white;
+  }
+  .airpod{
+    background-color: black;
+    color: white;
+  }
+  
+  .mac{
+    display: block;
+    text-align: center;
+  }
+  .mac h1,h2{
+    font-size: clamp(2rem, 5vw,5rem);
+    transition: all 0.01s linear;
+  
+  }
+  .macp{
+    font-size: clamp(0.5rem,1vw,2rem);
+    transition: all 0.01s linear;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .macp a{
+    color: black;
+  }
+  .macp a:hover{
+    color: rgb(82, 82, 236);
+  }
+  .macp p:hover{
+    
+    transform: scale(1.1);
+  }
+  .image-content{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .image-content img{
+    border: 2px solid red;
+    padding: 1rem;
+  }
