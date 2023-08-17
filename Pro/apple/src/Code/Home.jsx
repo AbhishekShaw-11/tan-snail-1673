@@ -2,46 +2,54 @@ import "../Css/Home.css";
 import React from "react";
 import { AiFillApple, AiOutlineRight, AiFillPlayCircle, AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
 import Footer from "./Footer";
-
+import { motion } from "framer-motion"
 
 const Home = () => {
     return (
         <div>
-            <div className='mac'>
-                <h1>MacBook Air 15''</h1>
-                <h2>Impressively big. Impossibly thin.</h2>
-                <div className='macp'>
-                    <p><a href="">Learn more <AiOutlineRight /> </a></p>
-                    <p><a href="">Buy <AiOutlineRight /> </a></p>
+            <div className='mac'
+          
+          >
+                <h1  data-aos="zoom-in"  data-aos-delay="1400" data-aos-duration="1500"
+                 >MacBook Air 15''</h1>
+                <h2 data-aos="zoom-out-up" data-aos-delay="1400" data-aos-duration="1500"
+                 >Impressively big. Impossibly thin.</h2>
+                <div className='macp' data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1500">
+                    <p data-aos="fade-down-right" data-aos-delay="1400" data-aos-duration="1500"><a href="" >Learn more <AiOutlineRight /> </a></p>
+                    <p data-aos="fade-up-left" data-aos-delay="1400" data-aos-duration="1500"><a href="" >Buy <AiOutlineRight /> </a></p>
                 </div>
 
-                <div className='image-content'>
+                <div className='image-content'
+                data-aos="flip-left"
+            
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">
                     <img src={require('./Image/apple laptop.jpg')} alt="err" />
                 </div>
 
             </div>
 
             <div className='ip14pro' >
-                <h1> iPhone 14 Pro</h1>
+                <h1 > iPhone 14 Pro</h1>
                 <h2>Pro.Beyond</h2>
-                <div >
+                <div className="i14p">
                     <p><a href="">Learn more <AiOutlineRight /> </a></p>
                     <p><a href="">Buy <AiOutlineRight /> </a></p>
                 </div>
 
-                <div >
+                <div className='image-content'>
                     <img src="https://photos5.appleinsider.com/gallery/50473-99283-iPhone-14-Pro-Max-colors-xl.jpg" alt="err" />
                 </div>
             </div>
             <div className='ip14'>
                 <h1> iPhone 14 </h1>
-                <h2>Wonderful</h2>
-                <div >
+                <h2>Wonderful.</h2>
+                <div className="ip14p">
                     <p><a href="">Learn more <AiOutlineRight /> </a></p>
                     <p><a href="">Buy <AiOutlineRight /> </a></p>
                 </div>
 
-                <div>
+                <div className='image-content'>
                     <img src="https://www.macobserver.com/wp-content/uploads/2022/09/Apple-iPhone-14-Lineup-1024x538.jpg" alt="err" />
                 </div>
             </div>

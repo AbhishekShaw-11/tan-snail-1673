@@ -1,7 +1,11 @@
 .ip14pro{
+   border: 2px solid black;
     background-color: black;
     color: white;
+    display: block;
+    text-align: center;
   }
+  
   .padwatch{
     background-color: black;
     color: white;
@@ -15,10 +19,13 @@
     display: block;
     text-align: center;
   }
-  .mac h1,h2{
+  .mac h1{
     font-size: clamp(2rem, 5vw,5rem);
     transition: all 0.01s linear;
-  
+   margin-bottom: -1.8rem;
+  }
+  .mac h2{
+    font-size: clamp(1.5rem, 3vw,3rem);
   }
   .macp{
     font-size: clamp(0.5rem,1vw,2rem);
@@ -38,11 +45,59 @@
     transform: scale(1.1);
   }
   .image-content{
-    border: 2px solid black;
     border-radius: 10px;
-    padding: 1rem;
+    
+    margin-bottom: 2rem;
   }
-  .image-content img{
-    border: 2px solid red;
-    padding: 1rem;
-  }
+  
+.ip14pro h1{
+  font-size: clamp(2rem, 5vw,5rem);
+  transition: all 0.01s linear;
+  margin-bottom: -1.8rem;
+}
+.ip14pro h2{
+  font-size: clamp(1.5rem, 3vw,3rem);
+}
+.i14p a{
+  color: white;
+}
+
+.i14p p:hover{
+  
+  transform: scale(1.1);
+}
+.i14p{
+  font-size: clamp(0.8rem,1.5vw,1.2rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.ip14{
+  display: block;
+  text-align: center;
+}
+
+.ip14p a{
+  color: black;
+}
+
+.ip14p p:hover{
+  
+  transform: scale(1.1);
+}
+.ip14p{
+  font-size: clamp(0.8rem,1.5vw,1.2rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.ip14 h1{
+  font-size: clamp(2rem, 5vw,5rem);
+  transition: all 0.01s linear;
+  margin-bottom: -1.8rem;
+}
+.ip14 h2{
+  font-size: clamp(1.5rem, 3vw,3rem);
+}
