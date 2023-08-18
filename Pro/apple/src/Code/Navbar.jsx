@@ -4,8 +4,10 @@ import React from "react";
 import { AiFillApple,AiOutlineSearch,AiOutlineRight} from "react-icons/ai";
 import { BsBag} from "react-icons/bs";
 import Home from "./Home";
+import gsap from 'gsap';
 
 const Navbar = () => {
+     let timeline = gsap.timeline();
   return (
     <div>
       <div className='navbar'>
@@ -57,7 +59,7 @@ const Navbar = () => {
      data-aos-easing="ease-in-out-quart"
      data-aos-duration="3000">Get up to ₹8000.00 instant savings on selected products with eligible HDFC Bank cards.* <a href="">Shop Now<AiOutlineRight/></a></p>
       </div>
-    <Home/>
+    <Home timeline= {timeline}/>
     </div>
   )
 }
