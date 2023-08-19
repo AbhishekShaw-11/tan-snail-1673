@@ -7,8 +7,11 @@
   }
   
   .padwatch{
-    background-color: black;
+    display: grid;
+    gap: 2rem;
     color: white;
+    display:  flex;
+    margin-top: 2rem;
   }
   .airpod{
     background-color: black;
@@ -100,4 +103,83 @@
 }
 .ip14 h2{
   font-size: clamp(1.5rem, 3vw,3rem);
+}
+.school{
+  display: flex;
+  justify-content: space-around;
+
+}
+.schooltext{
+  font-size: clamp(1.8rem,3vw,2.5rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: -1rem;
+}
+.schoolpara{
+  margin-top: 2rem;
+  font-size: clamp(0.8rem,1.5vw,1.2rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.markline{
+  font-size: clamp(0.8rem,1.5vw,1.2rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.sticker img{
+  width: 80%;
+  margin-left: 4rem;
+  margin-right: 2rem;
+
+}
+.save{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media (max-width: 800px){
+  .school{
+    display: grid;
+    grid-template-rows: (1,1);
+    
+  }
+  .padwatch{
+    display: grid;
+    grid-template-rows: (1,1);
+    
+  }
+}
+.watch{
+  font-size: clamp(1.8rem,3vw,2.5rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1rem;
+}
+.series{
+margin-top: 1rem;
+  font-size: clamp(0.8rem,1.5vw,1.2rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.tagh4{
+  font-size: clamp(1.2rem,3vw,2rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+}
+
+.pad1{
+  background-color: black;
+
+}
+.pad2{
+  background-color: black;
 }
