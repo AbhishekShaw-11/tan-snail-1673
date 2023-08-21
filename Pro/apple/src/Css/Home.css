@@ -13,10 +13,7 @@
     display:  flex;
     margin-top: 2rem;
   }
-  .airpod{
-    background-color: black;
-    color: white;
-  }
+ 
   
   .mac{
     display: block;
@@ -145,14 +142,25 @@
 @media (max-width: 800px){
   .school{
     display: grid;
-    grid-template-rows: (1,1);
+    grid-template-rows: (1,2);
     
   }
   .padwatch{
     display: grid;
-    grid-template-rows: (1,1);
+    grid-template-rows: (1,2);
     
   }
+  .trademain{
+    display: grid;
+    grid-template-rows: (1,2);
+    
+  }
+  .trade{
+    display: grid;
+    grid-template-rows: (1,2);
+
+  }
+  
 }
 .watch{
   font-size: clamp(1.8rem,3vw,2.5rem);
@@ -182,4 +190,59 @@ margin-top: 1rem;
 }
 .pad2{
   background-color: black;
+} 
+.trademain{
+  
+  display: grid;
+  margin-top: 3rem;
+  grid-row: 1,1;
+  width: 100%;
+  gap: 2rem;
+
+}
+.trade{
+display: flex;
+
+ 
+  gap: 2rem;
+}
+.upgrade{
+  width: 42rem;
+  margin-right: 2rem;
+}
+.upgrade img{
+  
+  width: 40rem;
+  height: 25rem;
+  margin: 7rem 3rem 3rem 3rem
+}
+.airpod{
+  background-color: black;
+  color: white;
+   
+   width: 45rem;
+   margin-left: 2rem;
+   height: 43rem;
+   
+}
+.airpod img{
+  
+  width: 30rem;
+  height: 25rem;
+  margin: 6rem 2rem 3rem 6rem;
+ }
+.trade h1{
+  font-size: clamp(1.8rem,3vw,2.5rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1rem;
+}
+.trade p{
+  margin-top: 1rem;
+  font-size: clamp(0.8rem,1.5vw,1.2rem);
+  transition: all 0.01s linear;
+  display: flex;
+  justify-content: center;
+  
 }
