@@ -2,6 +2,7 @@ import "../Css/Home.css";
 import React from 'react'
 import { AiFillApple, AiOutlineRight, AiFillPlayCircle, AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
 import Footer from "./Footer";
+import Slider from "./Slider";
 
 
 
@@ -423,7 +424,7 @@ const Home = ({ timeline }) => {
             </div>
             {/* slider */}
 
-
+<Slider/>
 
             <Footer />
         </div>

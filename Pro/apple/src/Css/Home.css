@@ -22,13 +22,13 @@
   .mac h1{
     font-size: clamp(2rem, 5vw,5rem);
     transition: all 0.01s linear;
-   margin-bottom: -1.8rem;
+   margin-bottom: -.3rem;
   }
   .mac h2{
     font-size: clamp(1.5rem, 3vw,3rem);
   }
   .macp{
-    font-size: clamp(0.5rem,1vw,2rem);
+    font-size: clamp(0.8rem,1vw,2rem);
     transition: all 0.01s linear;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
 .ip14pro h1{
   font-size: clamp(2rem, 5vw,5rem);
   transition: all 0.01s linear;
-  margin-bottom: -1.8rem;
+  margin-bottom: -.3rem;
 }
 .ip14pro h2{
   font-size: clamp(1.5rem, 3vw,3rem);
@@ -96,7 +96,7 @@
 .ip14 h1{
   font-size: clamp(2rem, 5vw,5rem);
   transition: all 0.01s linear;
-  margin-bottom: -1.8rem;
+  margin-bottom: -.3rem;
 }
 .ip14 h2{
   font-size: clamp(1.5rem, 3vw,3rem);
@@ -244,5 +244,36 @@ display: flex;
   transition: all 0.01s linear;
   display: flex;
   justify-content: center;
+  
+}
+
+.swiper_container {
+  margin-top:2rem ;
+  margin-bottom: 2rem;
+  height: 50rem;
+  width: 100%;
+   padding: 2rem 0; 
+  position: relative;
+}
+
+.swiper-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+}
+.swiper-slide img {
+  display: flex;
+ width: 90%;
+  height: 45rem;
+  align-items: center;
+  margin-left: 4.5rem;
+  margin-right: 2rem;
+  
+
+}
+.slider-controler .swiper-button-next {
+  
+  transform: translateX(-58%) ;
+   
   
 }

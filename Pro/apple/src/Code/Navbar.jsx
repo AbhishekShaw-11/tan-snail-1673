@@ -59,7 +59,7 @@ const Navbar = () => {
      data-aos-easing="ease-in-out-quart"
      data-aos-duration="3000">Get up to ₹8000.00 instant savings on selected products with eligible HDFC Bank cards.* <a href="">Shop Now<AiOutlineRight/></a></p>
       </div>
-    <Home timeline= {timeline}/>
+    <Home />
     </div>
   )
 }
