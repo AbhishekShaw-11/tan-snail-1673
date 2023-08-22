@@ -23,10 +23,11 @@ const Home = ({ timeline }) => {
                 </div>
 
                 <div className='image-content'
-                    data-aos="flip-left"
-
+                    data-aos="zoom-in"
+                    data-aos-delay="200"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000">
+                    data-aos-duration="3000"
+                    data-aos-once="false">
                     <img src={require('./Image/apple laptop.jpg')} alt="err" />
                 </div>
 

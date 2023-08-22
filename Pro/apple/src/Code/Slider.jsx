@@ -19,7 +19,12 @@ import slide_image_7 from './Slider/img7.png';
 
 const Slider = () => {
   return (
-    <div className="container">
+    <div className="container"   data-aos="zoom-out"
+    data-aos-delay="400"
+    data-aos-easing="ease-out-sine"
+    data-aos-duration="3000"
+    data-aos-mirror="true"
+    data-aos-once="false" data-aos-anchor-placement="top-center">
 
     <Swiper
       effect={'coverflow'}

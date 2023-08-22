@@ -1,0 +1,43 @@
+.footer{
+    margin-top: 2rem;
+ 
+ background-color: rgb(231, 224, 224);
+ 
+}
+.upper{
+    padding-top: 2rem;
+}
+.upper,hr,section{
+
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.footer li{
+
+    font-size: clamp(0.7rem,1.5vw,0.8rem );
+    color: rgb(73, 70, 70);
+    list-style-type: none;
+}
+.secondpart{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.secondpart li{
+    cursor: pointer;
+}
+.secondpart li:hover{
+    transform: scale(1.1);
+}
+h3{
+    display: block;
+    justify-content: center;
+    font-size: clamp(1.2,3vw,1.8rem);
+}
+p{
+    font-size: clamp(1rem,2vw,.8rem);
+}
+.thirdpart{
+    padding-bottom: 2rem;
+}
